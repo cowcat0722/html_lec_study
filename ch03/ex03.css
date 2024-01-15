@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(206, 201, 155);
+}
+
+h1 {
+    color: #0bd;
+}
+
+p {
+    font-size: 20px;
+}
