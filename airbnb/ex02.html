@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <style>
         .btn-search {
             background-color: #ff5a5f;
@@ -23,7 +25,31 @@
             font-weight: 700;
             border-radius: 6px;
             border: 1px solid black;
+        }
 
+        .tf-search {
+            height: 40px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+
+        .tf-search2 {
+            height: 40px;
+            width: 300px;
+            font-size: 20px;
+            border-radius: 4px;
+            padding: 0 0 0 35px;
+        }
+
+        .box-search {
+            position: relative;
+        }
+
+        .icon-search {
+            position: absolute;
+            top: 15px;
+            left: 10px;
         }
     </style>
 </head>
@@ -46,6 +72,17 @@
         </svg>
         구글 계정으로 로그인
     </button>
+    <br>
+    <h1>Input태그</h1>
+    <hr>
+    <input type="text" class="tf-search" placeholder="🔎 Search...">
+    <br><br>
+
+    <div class="box-search">
+        <input type="text" class="tf-search2" placeholder="Search...">
+        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+    </div>
+
 </body>
 
 </html>
