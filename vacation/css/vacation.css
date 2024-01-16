@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 800px;
+}
+
+.left {
+    background-image: url("../image/vacation.jpg");
+    background-size: 100% 100%;
+}
+
+.right {
+
+    display: grid;
+    grid-template-rows: 7fr 1fr;
+}
+
+.right-top {
+    background-color: #F8ECEB;
+
+}
+
+.right-top-1 {
+    top: 5%;
+    font-size: 100px;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.right-bot {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    background-color: white;
+    color: #666666;
+    margin: 5%;
+}
+
+.right-bot-1 {
+    font-weight: bold;
+}
+
+.right-bot-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20%;
+}
+
+
+.nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    padding: 20px;
+    position: absolute;
+    left: 5px;
+    /* 왼쪽 정렬 */
+    right: 5px;
+    /* 오른쪽 정렬 */
+    top: 5px;
+    /* 상단 정렬 */
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 15px;
+}
+
+.search {
+    color: #635E5E;
+}

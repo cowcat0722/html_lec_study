@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            padding-top: 3%;
+            background-color: #FAFAFA;
+        }
+
+        .main {
+
+            display: grid;
+            grid-template-rows: 7fr 1fr;
+        }
+
+        .main-top {
+            display: grid;
+            grid-template-columns: 2fr 3fr 3fr 2fr;
+        }
+
+
+
+        .main-bot {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .help-menu {
+            color: rgb(41, 41, 153);
+            margin-left: 10%;
+            font-size: 12px;
+        }
+
+        .insta {
+            font-size: 12px;
+            margin-top: 5%;
+            margin-left: 15%;
+        }
+
+        .login-table {
+            text-align: center;
+            display: grid;
+        }
+
+        .table1 {
+            background-color: white;
+            border: 1px solid gray;
+            margin-bottom: 15px;
+        }
+
+        .table2 {
+            background-color: white;
+            border: 1px solid gray;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .signup {
+            color: #3AAEF8;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        .login-facebook {
+            color: #385185;
+        }
+
+        .td1 {
+            margin: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-top">
+            <div></div>
+            <div class="phone"><img src="../images/login-main.png" width="250px"></div>
+            <div class="login-table">
+                <table class="table1">
+                    <tr>
+                        <td><br><img src="../images/logo.png"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" width="300px"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="비밀번호"></td>
+                    </tr>
+                    <tr>
+                        <td class="btn-login">
+                            <button>로그인</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="../images/or.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td class="login-facebook"><img src="../images/facebook-logo.png"> Facebook으로 로그인</td>
+                    </tr>
+                    <tr>
+                        <td>비밀번호를 잊으셨나요?</td>
+                    </tr>
+                </table>
+                <table class="table2">
+                    <tr>
+                        <td>계정이 없으신가요? <a class="signup" href="">가입하기</a></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td class="td1">앱을 다운로드하세요.</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="../images/login-ios.png" width="100px" height="35px">
+                            <img src="../images/login-android.png" width="100px" height="35px">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div></div>
+        </div>
+        <div class="main-bot">
+            <table class="help-menu">
+                <tr>
+                    <th>소개</th>
+                    <th>도움말</th>
+                    <th>홍보 센터</th>
+                    <th>API</th>
+                    <th>채용 정보</th>
+                    <th>개인정보처리방침</th>
+                    <th>약관</th>
+                    <th>위치</th>
+                    <th>인기 계정</th>
+                    <th>해시태그</th>
+                    <th>언어</th>
+                </tr>
+            </table>
+            <div class="insta">2020 INSTAGRAM FROM FACEBOOK</div>
+        </div>
+    </div>
+</body>
+
+</html>
