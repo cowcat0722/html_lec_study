@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        .pt-40 {
+            padding-top: 40px;
+        }
+
+        .mt-40 {
+            margin-top: 40px;
+        }
+
+        .main {
+            background-color: #FAFAFC;
+            width: 1425px;
+            height: 770px;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: 900;
+        }
+
+        .icons {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            justify-content: left;
+            grid-column-gap: 20px;
+        }
+
+        .icon-box {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            text-align: center;
+        }
+
+        .icon {
+            background-color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            border: 1px solid #D8D8D9;
+            box-shadow: 0px 0px 3px 0px;
+            font-size: 17px;
+        }
+
+        .add {
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            font-weight: 900;
+        }
+
+        .images {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main-body">
+            <div class="title pt-40">Add meals</div>
+            <div class="icons mt-40">
+                <div class="icon-box">
+                    <div class="icon">🥪</div>
+                    <div class="add">All</div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">🍕</div>
+                    <div class="add">Pizza</div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">🥩</div>
+                    <div class="add">Meat</div>
+                </div>
+                <div class="icon-box">
+                    <div class="icon">🥗</div>
+                    <div class="add">Veggies</div>
+                </div>
+            </div>
+            <hr>
+            <div class="subtitle">Featured meals</div>
+            <div class="images">
+                <div>
+                    <img src="./images/meal1.png">
+                </div>
+                <div>
+                    <img src="./images/meal2.png">
+                </div>
+                <div>
+                    <img src="./images/meal3.png">
+                </div>
+                <div>
+                    <img src="./images/meal4.png">
+                </div>
+            </div>
+            <hr>
+            <div>Pasta Carbonara</div>
+            <div>Lasagna</div>
+        </div>
+    </div>
+</body>
+
+</html>
